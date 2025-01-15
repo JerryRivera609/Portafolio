@@ -9,8 +9,7 @@ function home() {
     const instagram = '../../../public/instagram.png'
     return(
         <>
-        <body>
-            <section>
+            <section id='home'>
                 <div className="main-home">
                     <div className="info-home">
                         <div className="text-home">
@@ -47,7 +46,6 @@ function home() {
             <div className="bola"></div>
             <div className="bola"></div>
         </div>
-        </body>
         </>
     )
 }

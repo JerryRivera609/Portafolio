@@ -18,8 +18,7 @@ function header(){
                     </div>
                 </div>
             </header>
-      </>
-      
+        </>
     )
 }
 

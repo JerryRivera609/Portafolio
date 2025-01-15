@@ -15,9 +15,10 @@ h1 {
     text-align: start;
     line-height: 1;
     margin-bottom: 30px;
+    text-shadow: 2px 2px 30px #8b41d0aa;
 }
 
-h1 span {
+.text-home h1 span {
     background: linear-gradient(43deg, #870afc 0%, #bb83ff 46%, #6151f4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -26,13 +27,13 @@ h1 span {
 
 
 
-h2 {
+.text-home h2 {
     font-family: "Roboto", serif;
     font-style: thin;
     margin-bottom: 30px;
 }
 
-p {
+.text-home p {
     margin-bottom: 30px;
     font-size: 1rem;
 }
@@ -177,3 +178,4 @@ p {
     left: 30%;
     top: 80%;
 }
+
