@@ -3,7 +3,7 @@ import './about.css'
 const data = [
     { tittle: "TOTAL PROJECTS", description: 'My Experience Development Projects', image: '../../../public/llave-blanco.png', number: '3' },
     { tittle: "CERTIFICATES", description: 'Professional Skills Valided', image: '../../../public/insignia.png', number: '5' },
-    { tittle: "YEARS OF EXPERIENCE", description: 'Continuous Learning 2025', image: '../../../public/world.png', number: '3' },
+    { tittle: "YEARS OF EXPERIENCE", description: 'Continuous Learning 2025', image: '../../../public/world.png', number: '1' },
 ];
 
 function about(){

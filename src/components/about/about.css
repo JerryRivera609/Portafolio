@@ -1,6 +1,6 @@
 .main-about {
     color: white;
-    margin-top: 200px;
+    margin-top: 100px;
     width: 100%;
 }
 
@@ -107,7 +107,7 @@
     position: relative;
     display: inline-block;
     overflow: hidden;
-    box-shadow: 0px 0px 30px 0px #870afca4;
+    box-shadow: 0px 0px 30px 0px #ffffffa4;
     
     border-radius: 50%;
 }
@@ -116,7 +116,7 @@
     display: block;
     width: 350px;
     height: 350px;
-    box-shadow: 0px 0px 30px 0px #870afca4;
+    box-shadow: 0px 0px 30px 0px #ffffffa4;
     border-radius: 50%;
     transition: transform 0.5s ease;
 }
@@ -132,7 +132,7 @@
     left: -200%;
     width: 150%;
     height: 150%;
-    background: #870afc19;
+    background: #ffffff19;
     box-shadow: 0px 0px 100px 100px #870afc19;
     transform: rotate(45deg);
     transition: all 0.5s ease;

@@ -29,9 +29,9 @@ function home() {
                             <button>Contact <img src={correo} alt="" width="15px" height="17px" /></button>
                         </div>
                         <div className="redes-home">
-                            <button><img src={github} alt="GitHub" /></button>
-                            <button><img src={linkedin} alt="Linkedin" /></button>
-                            <button><img src={instagram} alt="Instagram" /></button>
+                            <a href='https://github.com/JerryRivera609' target='_blank'><img src={github} alt="GitHub" /></a>
+                            <a href='https://www.linkedin.com/in/jerryrivera609/' target='_blank'><img src={linkedin} alt="Linkedin" /></a>
+                            <a href='https://www.instagram.com/jerry_609rivera/' target='_blank'><img src={instagram} alt="Instagram"/></a>
                         </div>
                     </div>
                     <div className="home-animation">

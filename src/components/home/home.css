@@ -106,7 +106,7 @@ h1 {
     margin-top: 50px;
 }
 
-.redes-home button{
+.redes-home a{
     display: flex;
     align-items: center;
     justify-content: center;
