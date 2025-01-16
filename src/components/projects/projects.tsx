@@ -1,6 +1,15 @@
 import './projects.css'
 
+const headerContent = [
+    {image: '../../../../public/llave-blanco.png', tittle:'Projects', url:'#'},
+    {image: '../../../../public/insignia.png', tittle:'Certificates', url:'#'},
+    {image: '../../../../public/skills.png', tittle: 'Tech Stack', url:'#'}
+];
+
 function projects(){
+    const header = headerContent.map ( headers =>
+        <a href={headers.url}><img src={headers.image} alt="" /><p>{headers.tittle}</p></a>
+    );
     return (
         <section id="projects">
             <div className="projects-main">
@@ -10,12 +19,9 @@ function projects(){
                 </div>
                 <div className="projects-gallery">
                     <div className="projects-galley-header">
-                        <a href=""><img src="../../../../public/llave-blanco.png" alt="" /><p>Porjects</p></a>
-                        <a href=""><img src="../../../../public/insignia.png" alt="" /><p>Certificates</p></a>
-                        <a href=""><img src="../../../../public/skills.png" alt="" /><p>Tech Stack</p></a>
+                        {header}
                     </div>
                     <div className="projects-show">
-
                     </div>
                 </div>
             </div>
