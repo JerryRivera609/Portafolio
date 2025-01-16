@@ -30,6 +30,7 @@
     width: 90%;
     margin: 20px 0;
     display: flex;
+    flex-direction: column;
 }
 
 .projects-galley-header{
@@ -38,7 +39,7 @@
     background-color: #302f323b;
     border: 1px solid rgba(255, 255, 255, 0.225);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 0;
     gap: 10px;
 
 }
@@ -52,6 +53,7 @@
     text-decoration: none;
     color: white;
     padding: 10px;
+    margin: 0 10px;
     border-radius: 10px;
     transition: 1s;
 }
@@ -67,4 +69,46 @@
 .projects-galley-header img{
     width: 20px;
     height: 20px;
+}
+
+.projects-show{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-responsive{
+    width: 100%;
+    margin: 40px auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.project-target{
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff1c;
+    border: 2px solid rgba(255, 255, 255, 0.195);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: start;
+    
+}
+
+.project-target img{
+    border: none;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.project-target p{
+    font-size: 0.7rem;
+    margin-top: 10px;
 }
