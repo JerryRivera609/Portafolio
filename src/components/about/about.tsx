@@ -19,12 +19,13 @@ function about(){
     const cv = '../../../public/cv.png'
     const llave = '../../../public/llave.png'
     const photo = '../../../public/profile.jpeg'
+    const stars = '../../../public/star-white.png'
     return(
         <section id="about-me">
             <div className="main-about">
                 <div className="tittle-about">
                     <h2>About Me</h2>
-                    <p>Transforming ideas into digital experiences</p>
+                    <p><img src={stars} alt="" /> Transforming ideas into digital experiences <img src={stars} alt="" /></p>
                 </div>
                 <div className="info-photo-about">
                     <div className="info-about">

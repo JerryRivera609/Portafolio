@@ -22,6 +22,15 @@
 
 }
 
+.tittle-about p{
+    display: flex;
+    gap: 5px;
+}
+
+.tittle-about p img{
+    width: 15px;
+}
+
 .info-photo-about {
     display: flex;
     justify-content: space-around;
