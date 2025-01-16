@@ -18,7 +18,7 @@ function about(){
 
     const cv = '../../../public/cv.png'
     const llave = '../../../public/llave.png'
-    const photo = '../../../public/profile.jpeg'
+    const photo = '../../../public/profile2.jpeg'
     const stars = '../../../public/star-white.png'
     return(
         <section id="about-me">
