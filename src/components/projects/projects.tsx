@@ -30,7 +30,9 @@ function projects(){
                                 <img src="../../../public/project1.png" width="380px" alt="" />
                                 <h3>Digimedia</h3>
                                 <p>Desarrollo de sitio web en mis pracitcas, realizando una migración de PHP nativo a usar React, NodeJS, y MySQL.</p>
-                                <a href="">Details <img src="../../../public/flecha.png" width="20px" alt="" /></a>
+                                <div className="project-target-button">
+                                    <a href="">Details <img src="../../../public/flecha.png" width="20px" alt="" /></a>
+                                </div>
                             </div>
                         </div>
                         <div className="projects-certificate">

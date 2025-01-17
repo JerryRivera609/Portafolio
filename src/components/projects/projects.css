@@ -88,7 +88,7 @@
 
 .project-target{
     width: 400px;
-    height: 300px;
+    height: 350px;
     background-color: #ffffff1c;
     border: 2px solid rgba(255, 255, 255, 0.195);
     border-radius: 10px;
@@ -111,4 +111,32 @@
 .project-target p{
     font-size: 0.7rem;
     margin-top: 10px;
+}
+
+.project-target-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.project-target-button a{
+    display: flex;
+    gap: 5px;
+    background-color: #0000001e;
+    padding: 10px;
+    width: 80px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.project-target-button a img{
+    width: 15px;
+    margin: 0;
 }
