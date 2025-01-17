@@ -78,7 +78,7 @@
     align-items: center;
 }
 
-.div-responsive{
+.projects-projects{
     width: 100%;
     margin: 40px auto;
     display: grid;
@@ -121,11 +121,11 @@
 
 .project-target-button a{
     display: flex;
-    gap: 5px;
+    gap: 10px;
     background-color: #0000001e;
     padding: 10px;
-    width: 80px;
-    height: 20px;
+    width: auto;
+    height: auto;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
@@ -134,9 +134,23 @@
     font-size: 0.9rem;
     margin-top: 10px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: 1s;
+}
+
+.project-target-button a:hover{
+    background-color: #e7e7e749;
 }
 
 .project-target-button a img{
     width: 15px;
     margin: 0;
+}
+
+.projects-gallery a.selected {
+    color: #fff;
+    background: linear-gradient(43deg, #870afc71 0%, #bb83ff71 46%, #6151f471 100%);
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    font-weight: bold;
 }
