@@ -34,7 +34,7 @@ const targetData = [
 const skillTech = [
     {name: 'HTML', img:'../../../public/skills/HTML.svg'},
     {name: 'CSS', img:'../../../public/skills/CSS.svg'},
-    {name: 'Visual Studio Code', img:'../../../public/skills/VSCode.svg'},
+    {name: 'VS Code', img:'../../../public/skills/VSCode.svg'},
     {name: 'Git', img:'../../../public/skills/Git.svg'},
     {name: 'Github', img:'../../../public/skills/Github.svg'},
     {name: 'VUE', img:'../../../public/skills/VueJS.svg'},
