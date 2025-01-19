@@ -24,11 +24,29 @@ const targetData = [
     },
     {
         tittle: 'CV',
-        description: 'Primer proyecto basico de replica de mi CV personal, se usó HTML y CSS.',
+        description: 'Primer proyecto basico de replica de mi CV personal en una pagina web, se usó HTML y CSS.',
         projectUrl: '../../../public/project3.png',
         button: 'Details',
         buttonImg: '../../../public/flecha.png',
     },
+];
+
+const skillTech = [
+    {name: 'HTML', img:'../../../public/skills/HTML.svg'},
+    {name: 'CSS', img:'../../../public/skills/CSS.svg'},
+    {name: 'Visual Studio Code', img:'../../../public/skills/VSCode.svg'},
+    {name: 'Git', img:'../../../public/skills/Git.svg'},
+    {name: 'Github', img:'../../../public/skills/Github.svg'},
+    {name: 'VUE', img:'../../../public/skills/VueJS.svg'},
+    {name: 'React', img:'../../../public/skills/React.svg'},
+    {name: 'Vite', img:'../../../public/skills/Vite.svg'},
+    {name: 'PHP', img:'../../../public/skills/PHP.svg'},
+    {name: 'TypeScript', img:'../../../public/skills/TypeScript.svg'},
+    {name: 'JavaScript', img:'../../../public/skills/JavaScript.svg'},
+    {name: 'TailWind CSS', img:'../../../public/skills/Tailwind.svg'},
+    {name: 'SASS', img:'../../../public/skills/Sass.svg'},
+    {name: 'MySQL', img:'../../../public/skills/MySQL.svg'},
+    {name: 'SQL Server', img:'../../../public/skills/sql-server.png'},
 ];
 
 function Projects() {
@@ -57,6 +75,13 @@ function Projects() {
         </div>
     ));
 
+    const skills = skillTech.map (skill =>(
+        <div className="skill-target">
+            <img src={skill.img} alt="" />
+            <p>{skill.name}</p>
+        </div>
+    ));
+
     return (
         <section id="projects">
             <div className="projects-main">
@@ -69,14 +94,14 @@ function Projects() {
                         {header}
                     </div>
                     <div className="projects-show">
-                        <div className="div-responsive projects-projects">
-                            {targets}
+                        <div className="projects-projects">
+                            {/*targets*/}
                         </div>
                         <div className="projects-certificate">
                             {/* Agregar contenido según sea necesario */}
                         </div>
                         <div className="projects-techStack">
-                            {/* Agregar contenido según sea necesario */}
+                            {skills}
                         </div>
                     </div>
                 </div>
