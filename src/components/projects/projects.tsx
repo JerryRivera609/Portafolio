@@ -54,14 +54,17 @@ const certificatesTech = [
 ];
 
 function Projects() {
-    const [selected, setSelected] = useState('Projects'); // Valores iniciales correctos
+    const [selected, setSelected] = useState('Projects');
 
     const header = headerContent.map(headers => (
         <a
             key={headers.tittle}
             id={headers.id}
             href='#'
-            onClick={() => setSelected(headers.tittle)} // Mantén la asignación consistente con los valores
+            onClick={(e) => {
+                e.preventDefault();
+                setSelected(headers.tittle);
+            }}
             className={selected === headers.tittle ? 'selected' : ''}
         >
             <img src={headers.image} alt="" />
