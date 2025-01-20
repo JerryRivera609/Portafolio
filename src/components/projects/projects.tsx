@@ -49,7 +49,7 @@ const skillTech = [
     {name: 'SQL Server', img:'../../../public/skills/sql-server.png'},
 ];
 
-const certificates = [
+const certificatesTech = [
     {img: '../../../public/document/certificate-github.png'},
 ];
 
@@ -86,6 +86,12 @@ function Projects() {
         </div>
     ));
 
+    const certificate = certificatesTech.map ( certificate =>(
+        <div className="certificate">
+            <img src={certificate.img} alt="Certificado" />
+        </div>
+    ));
+
     return (
         <section id="projects">
             <div className="projects-main">
@@ -102,10 +108,7 @@ function Projects() {
                             {/*targets*/}
                         </div>
                         <div className="projects-certificate">
-                            <div className="certificate">
-                                <img src="../../../public/document/certificate-github.png" alt="" />
-                            </div>
-                            
+                            {certificate}
                         </div>
                         <div className="projects-techStack">
                             {/*skills*/}
