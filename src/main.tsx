@@ -4,6 +4,7 @@ import Header from './components/header/header'
 import Home from './components/home/home'
 import About from './components/about/about'
 import Projects from './components/projects/projects'
+import Fondo from './components/background/fondo'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')!).render(
       <Home />
       <About />
       <Projects />
+      <Fondo />
     </body>
   </StrictMode>,
 )

@@ -39,13 +39,6 @@ function home() {
                     </div>
             </div>
         </section>
-        <div className="bolas">
-            <div className="bola"></div>
-            <div className="bola"></div>
-            <div className="bola"></div>
-            <div className="bola"></div>
-            <div className="bola"></div>
-        </div>
         </>
     )
 }

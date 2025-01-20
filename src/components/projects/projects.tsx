@@ -23,7 +23,7 @@ const targetData = [
         buttonImg: '../../../public/flecha.png',
     },
     {
-        tittle: 'CV',
+        tittle: 'Curriculum Vitae',
         description: 'Primer proyecto basico de replica de mi CV personal en una pagina web, se usó HTML y CSS.',
         projectUrl: '../../../public/project3.png',
         button: 'Details',
@@ -37,7 +37,6 @@ const skillTech = [
     {name: 'VS Code', img:'../../../public/skills/VSCode.svg'},
     {name: 'Git', img:'../../../public/skills/Git.svg'},
     {name: 'Github', img:'../../../public/skills/Github.svg'},
-    {name: 'VUE', img:'../../../public/skills/VueJS.svg'},
     {name: 'React', img:'../../../public/skills/React.svg'},
     {name: 'Vite', img:'../../../public/skills/Vite.svg'},
     {name: 'PHP', img:'../../../public/skills/PHP.svg'},

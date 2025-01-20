@@ -4,6 +4,8 @@
     color: white;
     width: 100%;
     display: flex;
+    position: relative;
+    z-index: 1000;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -102,15 +104,23 @@
 .project-target{
     width: 400px;
     height: 350px;
-    background-color: #ffffff1c;
-    border: 2px solid rgba(255, 255, 255, 0.195);
+    background-color: #7873bb63;
+    border: 1px solid rgba(145, 145, 145, 0.195);
     border-radius: 10px;
     padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: start;
     text-align: start;
-    
+    transition: 0.5s;
+
+}
+
+.project-target:hover{
+    border: 1px solid #9f4bff77;
+    img{
+        transform: scale(1.01);
+    }
 }
 
 .project-target img{
@@ -119,7 +129,10 @@
     height: auto;
     border-radius: 10px;
     margin-bottom: 10px;
+    transform: scale(1);
+    transition: 0.5;
 }
+
 
 .project-target p{
     font-size: 0.7rem;
@@ -169,9 +182,9 @@
 }
 
 .projects-techStack{
-    margin: 40px 80px;
+    margin: 30px 150px;
     display: grid;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
@@ -179,12 +192,18 @@
 .skill-target{
     width: 100px;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
     background-color: #7873bb1e;
     padding: 10px;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+.skill-target:hover{
+    transform: scale(1.09);
+    background: linear-gradient(124deg, #8000f88c 0%, #bb83ffa0 46%, #6151f49a 100%);
 }
 
 .skill-target img{
@@ -197,6 +216,7 @@
     width: 100%;
     display: grid;
     justify-items: center;
+    margin-top: 30px;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
@@ -206,6 +226,14 @@
     border-radius: 10px;
     margin: 10px;
     display: flex;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+
+.certificate:hover{
+    top: -10px;
+    transition: 1s;
 }
 
 .certificate img{
