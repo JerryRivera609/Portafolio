@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import './projects.css';
 
 const headerContent = [
-    { image: '../../../../public/llave-blanco.png', tittle: 'Projects', url: '#' },
-    { image: '../../../../public/insignia.png', tittle: 'Certificates', url: '#' },
-    { image: '../../../../public/skills.png', tittle: 'Tech Stack', url: '#' }
+    { image: '../../../../public/llave-blanco.png', tittle: 'Projects', url: '#', id: 'projectSection' },
+    { image: '../../../../public/insignia.png', tittle: 'Certificates', url: '#', id: 'certificateSection' },
+    { image: '../../../../public/skills.png', tittle: 'Tech Stack', url: '#', id: 'techStackSection' }
 ];
 
 const targetData = [
@@ -54,13 +54,14 @@ const certificatesTech = [
 ];
 
 function Projects() {
-    const [selected, setSelected] = useState('Projects');
+    const [selected, setSelected] = useState('Projects'); // Valores iniciales correctos
 
     const header = headerContent.map(headers => (
         <a
             key={headers.tittle}
-            href='#projects'
-            onClick={() => setSelected(headers.tittle)} 
+            id={headers.id}
+            href='#'
+            onClick={() => setSelected(headers.tittle)} // Mantén la asignación consistente con los valores
             className={selected === headers.tittle ? 'selected' : ''}
         >
             <img src={headers.image} alt="" />
@@ -69,25 +70,27 @@ function Projects() {
     ));
 
     const targets = targetData.map(target => (
-        <div className='project-target' key={target.tittle}>
+        <div className="project-target" key={target.tittle}>
             <img src={target.projectUrl} width="380px" alt="" />
             <h3>{target.tittle}</h3>
             <p>{target.description}</p>
             <div className="project-target-button">
-                <a href="">{target.button} <img src={target.buttonImg} width="20px" alt="" /></a>
+                <a href="">
+                    {target.button} <img src={target.buttonImg} width="20px" alt="" />
+                </a>
             </div>
         </div>
     ));
 
-    const skills = skillTech.map (skill =>(
-        <div className="skill-target">
+    const skills = skillTech.map(skill => (
+        <div className="skill-target" key={skill.name}>
             <img src={skill.img} alt="" />
             <p>{skill.name}</p>
         </div>
     ));
 
-    const certificate = certificatesTech.map ( certificate =>(
-        <div className="certificate">
+    const certificate = certificatesTech.map((certificate, index) => (
+        <div className="certificate" key={index}>
             <img src={certificate.img} alt="Certificado" />
         </div>
     ));
@@ -97,21 +100,34 @@ function Projects() {
             <div className="projects-main">
                 <div className="projects-header">
                     <h2>Personal Portfolio</h2>
-                    <p>Explore my journey through projects, certifications, and technical experience. Each section represents a milestone in my continuous learning path.</p>
+                    <p>
+                        Explore my journey through projects, certifications, and technical experience. 
+                        Each section represents a milestone in my continuous learning path.
+                    </p>
                 </div>
                 <div className="projects-gallery">
-                    <div className="projects-galley-header">
-                        {header}
-                    </div>
+                    <div className="projects-galley-header">{header}</div>
                     <div className="projects-show">
-                        <div className="projects-projects">
-                            {/*targets*/}
+                        <div
+                            id="projects"
+                            className="projects-projects"
+                            style={{ display: selected === 'Projects' ? 'grid' : 'none' }}
+                        >
+                            {targets}
                         </div>
-                        <div className="projects-certificate">
+                        <div
+                            id="certificate"
+                            className="projects-certificate"
+                            style={{ display: selected === 'Certificates' ? 'grid' : 'none' }}
+                        >
                             {certificate}
                         </div>
-                        <div className="projects-techStack">
-                            {/*skills*/}
+                        <div
+                            id="techStack"
+                            className="projects-techStack"
+                            style={{ display: selected === 'Tech Stack' ? 'grid' : 'none' }}
+                        >
+                            {skills}
                         </div>
                     </div>
                 </div>
