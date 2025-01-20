@@ -49,6 +49,10 @@ const skillTech = [
     {name: 'SQL Server', img:'../../../public/skills/sql-server.png'},
 ];
 
+const certificates = [
+    {img: '../../../public/document/certificate-github.png'},
+];
+
 function Projects() {
     const [selected, setSelected] = useState('Projects');
 
@@ -98,10 +102,13 @@ function Projects() {
                             {/*targets*/}
                         </div>
                         <div className="projects-certificate">
-                            {/* Agregar contenido según sea necesario */}
+                            <div className="certificate">
+                                <img src="../../../public/document/certificate-github.png" alt="" />
+                            </div>
+                            
                         </div>
                         <div className="projects-techStack">
-                            {skills}
+                            {/*skills*/}
                         </div>
                     </div>
                 </div>
