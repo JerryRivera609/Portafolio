@@ -22,11 +22,14 @@ function contact(){
                             <div>
                                 <input type="textarea" />
                             </div>
+                            <button type="submit">Send Message</button>
                         </form>
                     </div>
                     <div className="contact-redes">
+                        <h3>Look For Me</h3>
+                        <p>In my social networks, follow me please :3</p>
                         <div className="contact-redes-display">
-                            
+
                         </div>
                     </div>
                 </div>
