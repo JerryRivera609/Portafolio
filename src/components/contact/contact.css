@@ -1,0 +1,28 @@
+.contact-main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.contact-header{
+    margin-bottom: 50px;
+     h2 {
+        font-size: 3rem;
+        background: linear-gradient(43deg, #870afc 0%, #bb83ff 46%, #6151f4 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.contact-email-redes{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+

@@ -1,4 +1,4 @@
-
+import './contact.css'
 
 function contact(){
     return(
@@ -29,11 +29,10 @@ function contact(){
                         <h3>Look For Me</h3>
                         <p>In my social networks, follow me please :3</p>
                         <div className="contact-redes-display">
-
+                            <div></div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
     );
