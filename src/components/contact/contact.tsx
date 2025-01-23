@@ -14,22 +14,43 @@ function contact(){
                         <p>Have something to discuss? Send me a message and let's talk.</p>
                         <form action="" method="get">
                             <div>
-                                <input type="text" name="" id="" placeholder="Your Name" />
+                                <input className='input-name' type="text" name="" id="" placeholder="Your Name" required />
                             </div>
                             <div>
-                                <input type="email" name="" id="" placeholder="Your Email" />
+                                <input className='input-email' type="email" name="" id="" placeholder="Your Email" required />
                             </div>
                             <div>
-                                <input type="textarea" />
+                                
+                                <textarea name="" id="" placeholder='Your Message' required ></textarea>
                             </div>
                             <button type="submit">Send Message</button>
                         </form>
                     </div>
                     <div className="contact-redes">
-                        <h3>Look For Me</h3>
+                        <h3>Connect With Me</h3>
                         <p>In my social networks, follow me please :3</p>
                         <div className="contact-redes-display">
-                            <div></div>
+                        <div className="social">
+                                <img src="../../../public/whatsapp.png" alt="" />
+                                <div className="social-text">
+                                    <h4>Whatsapp</h4>
+                                    <p>+51 980837493</p>
+                                </div>
+                            </div>
+                            <div className="social">
+                                <img src="../../../public/whatsapp.png" alt="" />
+                                <div className="social-text">
+                                    <h4>Whatsapp</h4>
+                                    <p>+51 980837493</p>
+                                </div>
+                            </div>
+                            <div className="social">
+                                <img src="../../../public/whatsapp.png" alt="" />
+                                <div className="social-text">
+                                    <h4>WhatsApp</h4>
+                                    <p>+51 980837493</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
