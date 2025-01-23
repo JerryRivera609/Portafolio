@@ -32,16 +32,16 @@ function contact(){
                     <div className="contact-email">
                         <h3>Get in Touch</h3>
                         <p>Have something to discuss? Send me a message and let's talk.</p>
-                        <form action="" method="get">
+                        <form action="https://formspree.io/f/mbldjqdr" method="POST">
                             <div>
-                                <input className='input-name' type="text" name="" id="" placeholder="Your Name" required />
+                                <input className='input-name' type="text" name="name" id="" placeholder="Your Name" required />
                             </div>
                             <div>
-                                <input className='input-email' type="email" name="" id="" placeholder="Your Email" required />
+                                <input className='input-email' type="email" name="email" id="" placeholder="Your Email" required />
                             </div>
                             <div>
                                 
-                                <textarea name="" id="" placeholder='Your Message' required ></textarea>
+                                <textarea name="message" id="textarea" placeholder='Your Message' required ></textarea>
                             </div>
                             <button type="submit">Send Message</button>
                         </form>
