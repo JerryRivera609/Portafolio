@@ -96,15 +96,17 @@
     background-color: #ffffff08;
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.221);
-    padding: 10px;
+    padding: 20px;
     display: flex;
     align-items: center;
     gap: 10px;
     text-align: start;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
     img{
         width: 30px;
         height: 30px;
-        background-color: #25d3662a;
         padding: 7px;
         border-radius: 10px;
     }
@@ -117,3 +119,17 @@
         font-size: 0.8rem;
     }
 }
+
+.social:nth-child(1) img { background: #0a66c22a; }
+.social:nth-child(2) img { background: #25d3663b; }
+.social:nth-child(3) img { background: linear-gradient(45deg, #f585293b 20%, #feda773b 30%, #dd2a7b3b 60%, #8134af3b 80%, #515bd43b 100%); }
+.social:nth-child(4) img { background: #0000003b; }
+.social:nth-child(5) img { background: #0000003b; }
+.social:nth-child(6) img { background: #ff00002a; }
+
+.social:nth-child(1):hover { background: #0a66c22a; }
+.social:nth-child(2):hover { background: #25d3663b; }
+.social:nth-child(3):hover { background: linear-gradient(45deg, #f585293b 20%, #feda773b 30%, #dd2a7b3b 60%, #8134af3b 80%, #515bd43b 100%); }
+.social:nth-child(4):hover { background: #0000003b; }
+.social:nth-child(5):hover { background: #0000003b; }
+.social:nth-child(6):hover { background: #ff00002a; }

@@ -1,6 +1,26 @@
 import './contact.css'
 
+const redesSociales = [
+    {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png'},
+    {tittle: 'WhatsApp', description:'51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png'},
+    {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'../../../public/instagram-color.png'},
+    {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'../../../public/tiktok.png'},
+    {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'../../../public/github.png'},
+    {tittle: 'YouTube', description:'@riveracode', url:'https://www.youtube.com/channel/UCydAbiXAy6-WvKl5LAry3vw', imgurl:'../../../public/youtube.png'},
+];
+
 function contact(){
+
+    const misRedes = redesSociales.map( redes => (
+        <a href={redes.url} target='_blank' className='social'>
+            <img src={redes.imgurl} alt="" />
+                <div className="social-text">
+                    <h4>{redes.tittle}</h4>
+                    <p>{redes.description}</p>
+            </div>
+        </a>
+    ));
+
     return(
         <section>
             <div className="contact-main">
@@ -30,27 +50,7 @@ function contact(){
                         <h3>Connect With Me</h3>
                         <p>In my social networks, follow me please :3</p>
                         <div className="contact-redes-display">
-                        <div className="social">
-                                <img src="../../../public/whatsapp.png" alt="" />
-                                <div className="social-text">
-                                    <h4>Whatsapp</h4>
-                                    <p>+51 980837493</p>
-                                </div>
-                            </div>
-                            <div className="social">
-                                <img src="../../../public/whatsapp.png" alt="" />
-                                <div className="social-text">
-                                    <h4>Whatsapp</h4>
-                                    <p>+51 980837493</p>
-                                </div>
-                            </div>
-                            <div className="social">
-                                <img src="../../../public/whatsapp.png" alt="" />
-                                <div className="social-text">
-                                    <h4>WhatsApp</h4>
-                                    <p>+51 980837493</p>
-                                </div>
-                            </div>
+                            {misRedes}
                         </div>
                     </div>
                 </div>
