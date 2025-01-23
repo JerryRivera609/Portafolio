@@ -2,6 +2,8 @@
     color: white;
     margin: 100px 0;
     width: 100%;
+    position: relative;
+    z-index: 1000;
 }
 
 .tittle-about {

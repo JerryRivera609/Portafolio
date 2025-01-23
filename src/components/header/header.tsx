@@ -10,10 +10,10 @@ function header(){
                     </div>
                     <div className="links-Header">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about-me">About</a></li>
+                            <li><a href="#projects">Portfolio</a></li>
+                            <li><a href="#cotact-me">Contact</a></li>
                         </ul>
                     </div>
                 </div>

@@ -6,11 +6,12 @@
     position: relative;
     z-index: 1000;
     padding: 0 300px;
+    margin: 20px 0;
 }
 
 .contact-header{
     margin-bottom: 50px;
-     h2 {
+    h2 {
         font-size: 3rem;
         background: linear-gradient(43deg, #870afc 0%, #bb83ff 46%, #6151f4 100%);
         -webkit-background-clip: text;
