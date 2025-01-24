@@ -22,6 +22,8 @@ function about(){
     const llave = '../../../public/llave.png'
     const photo = '../../../public/profile2.jpeg'
     const stars = '../../../public/star-white.png'
+    const curriculum = '../../../public/cv/Jerry-Marino-Dominguez-Rivera-CV-Carta.pdf'
+    const curriculumName = 'Jerry-Marino-Dominguez-Rivera-CV'
 
     return(
         <section id="about-me">
@@ -35,8 +37,8 @@ function about(){
                         <h2><span>Hello, I'm </span> <br />Jerry Marino Dominguez Rivera</h2>
                         <p>Esutidnate de la Carrera de Ingeniería de Software interesado en el desarrollo Front-End. Me centro en crear experiencias digitales atractivas y siempre me esfuerzo por brindar las mejores soluciones en cada proyecto.</p>
                         <div className="button-about">
-                            <a href="" className="button"> <img src={cv} alt="" /> Download CV </a>
-                            <a href="" className="button"> <img src={llave} alt="" /> View Porjects</a>
+                            <a href={curriculum} className="button" download={curriculumName}> <img src={cv} alt="" /> Download CV </a>
+                            <a href="#projects" className="button"> <img src={llave} alt="" /> View Porjects</a>
                         </div>
                     </div>
                     <div className="profile-about">

@@ -1,4 +1,6 @@
-import './contact.css'
+import './contact.css';
+import { XyzTransition } from '@animxyz/react';
+
 
 const redesSociales = [
     {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png'},
