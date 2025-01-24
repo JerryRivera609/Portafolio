@@ -46,10 +46,12 @@ const skillTech = [
     {name: 'SASS', img:'../../../public/skills/Sass.svg'},
     {name: 'MySQL', img:'../../../public/skills/MySQL.svg'},
     {name: 'SQL Server', img:'../../../public/skills/sql-server.png'},
+    {name: 'Networking', img:'../../../public/skills/network.png'},
 ];
 
 const certificatesTech = [
     {img: '../../../public/document/certificate-github.png'},
+    {img: '../../../public/document/network.jpg'},
 ];
 
 function Projects() {
