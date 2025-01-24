@@ -1,4 +1,6 @@
 import './about.css'
+import '@animxyz/react';
+
 
 const data = [
     { tittle: "TOTAL PROJECTS", description: 'My Experience Development Projects', image: '../../../public/llave-blanco.png', number: '3' },
@@ -28,7 +30,7 @@ function about(){
     return(
         <section id="about-me">
             <div className="main-about">
-                <div className="tittle-about">
+                <div className="tittle-about xyz-in xyz-fade xyz-duration-10" >
                     <h2>About Me</h2>
                     <p><img src={stars} alt="" /> Transforming ideas into digital experiences <img src={stars} alt="" /></p>
                 </div>

@@ -1,5 +1,4 @@
 import './contact.css';
-import { XyzTransition } from '@animxyz/react';
 
 
 const redesSociales = [
@@ -23,9 +22,10 @@ function contact(){
         </a>
     ));
 
+
     return(
         <section id='cotact-me'>
-            <div className="contact-main">
+            <div className="contact-main ">
                 <div className="contact-header">
                     <h2>Contact Me</h2>
                     <p>Got a question? Send me a message, and I'll get back to you soon</p>
