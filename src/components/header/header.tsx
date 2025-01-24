@@ -6,7 +6,7 @@ function header(){
             <header className="w-full">
                 <div className="p-5 flex justify-around items-center text-white relative z-[1000]">
                     <div className="nombre-Header">
-                        <h2>Jerry Rivera</h2>
+                        <h2 className='text-[1.5rem]'>Jerry Rivera</h2>
                     </div>
                     <div className="links-Header">
                     <ul className="flex gap-5 list-none">

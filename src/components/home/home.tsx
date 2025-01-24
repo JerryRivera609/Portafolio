@@ -10,28 +10,28 @@ function home() {
     return(
         <>
             <section id='home'>
-                <div className="main-home">
+                <div className="flex relative justify-around text-white h-[80vh] z-[1000]">
                     <div className="info-home">
                         <div className="text-home">
-                            <h1>Frontend <br /><span>Developer</span></h1>
-                            <h2>Software Engineering Student</h2>
-                            <p>Sitio Web Funcional, Facil de Usar e interactivo para el Usuario, <br />listo para proponer soluciones tecnologicas.</p>
+                            <h1 className='text-[5rem] text-start leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
+                            <h2 className='font-thin mb-[30px] text-[1.4rem]'>Software Engineering Student</h2>
+                            <p className='text-[1rem] mb-[30px]'>Sitio Web Funcional, Facil de Usar e interactivo para el Usuario, <br />listo para proponer soluciones tecnologicas.</p>
                         </div>
-                        <div className="lenguajes-home">
-                            <button>React</button>
-                            <button>JavaScript</button>
-                            <button>PHP</button>
-                            <button>Taildwind</button>
-                            <button>Node.js</button>
+                        <div className="lenguajes-home flex gap-[10px] mb-[30px]">
+                            <button >React</button>
+                            <button >JavaScript</button>
+                            <button >PHP</button>
+                            <button >Taildwind</button>
+                            <button >Node.js</button>
                         </div>
                         <div className="adicionales-home">
                             <button>Projects <img src={proyecto} alt="" width="15px" height="15px" /></button>
                             <button>Contact <img src={correo} alt="" width="15px" height="17px" /></button>
                         </div>
-                        <div className="redes-home">
-                            <a href='https://github.com/JerryRivera609' target='_blank'><img src={github} alt="GitHub" /></a>
-                            <a href='https://www.linkedin.com/in/jerryrivera609/' target='_blank'><img src={linkedin} alt="Linkedin" /></a>
-                            <a href='https://www.instagram.com/jerry_609rivera/' target='_blank'><img src={instagram} alt="Instagram"/></a>
+                        <div className="redes-home flex gap-[30px] mt-[50px]">
+                            <a href='https://github.com/JerryRivera609' target='_blank'><img className='w-[35px] h-[35px]' src={github} alt="GitHub" /></a>
+                            <a href='https://www.linkedin.com/in/jerryrivera609/' target='_blank'><img className='w-[35px] h-[35px]' src={linkedin} alt="Linkedin" /></a>
+                            <a href='https://www.instagram.com/jerry_609rivera/' target='_blank'><img className='w-[35px] h-[35px]' src={instagram} alt="Instagram"/></a>
                         </div>
                     </div>
                     <div className="home-animation">
