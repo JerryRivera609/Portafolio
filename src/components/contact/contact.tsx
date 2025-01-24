@@ -2,7 +2,7 @@ import './contact.css'
 
 const redesSociales = [
     {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png'},
-    {tittle: 'WhatsApp', description:'51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png'},
+    {tittle: 'WhatsApp', description:'+51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png'},
     {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'../../../public/instagram-color.png'},
     {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'../../../public/tiktok.png'},
     {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'../../../public/github.png'},

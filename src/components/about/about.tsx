@@ -6,6 +6,8 @@ const data = [
     { tittle: "YEARS OF EXPERIENCE", description: 'Continuous Learning 2025', image: '../../../public/world.png', number: '1' },
 ];
 
+
+
 function about(){
     const ListData = data.map (data =>
         <div className="data-me">
@@ -20,6 +22,7 @@ function about(){
     const llave = '../../../public/llave.png'
     const photo = '../../../public/profile2.jpeg'
     const stars = '../../../public/star-white.png'
+
     return(
         <section id="about-me">
             <div className="main-about">

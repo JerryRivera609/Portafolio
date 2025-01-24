@@ -16,6 +16,9 @@ createRoot(document.getElementById('root')!).render(
       <Projects />
       <Fondo />
       <Contact />
+      <script>
+        AOS.init();
+      </script>
     </body>
   </StrictMode>,
 )

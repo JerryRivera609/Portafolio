@@ -111,6 +111,7 @@ function Projects() {
                     <div className="projects-galley-header">{header}</div>
                     <div className="projects-show">
                         <div
+                        
                             id="projects"
                             className="projects-projects"
                             style={{ display: selected === 'Projects' ? 'grid' : 'none' }}
