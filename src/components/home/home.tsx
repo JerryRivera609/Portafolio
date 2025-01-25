@@ -18,13 +18,13 @@ function home() {
                             <p className='text-[1rem] mb-[30px]'>Sitio Web Funcional, Facil de Usar e interactivo para el Usuario, <br />listo para proponer soluciones tecnologicas.</p>
                         </div>
                         <div className="lenguajes-home flex gap-[10px] mb-[30px]">
-                            <button >React</button>
-                            <button >JavaScript</button>
-                            <button >PHP</button>
-                            <button >Taildwind</button>
-                            <button >Node.js</button>
+                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>React</button>
+                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>JavaScript</button>
+                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>PHP</button>
+                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Taildwind</button>
+                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Node.js</button>
                         </div>
-                        <div className="adicionales-home">
+                        <div className="adicionales-home flex gap-[10px] mb-[40px]">
                             <button>Projects <img src={proyecto} alt="" width="15px" height="15px" /></button>
                             <button>Contact <img src={correo} alt="" width="15px" height="17px" /></button>
                         </div>

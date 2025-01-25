@@ -17,10 +17,6 @@
 
 */
 h1 {
-    font-size: 5em;
-    text-align: start;
-    line-height: 1;
-    margin-bottom: 30px;
     text-shadow: 2px 2px 30px #8b41d0aa;
 }
 
@@ -52,6 +48,7 @@ h1 {
 }
 
 */
+/*
 .lenguajes-home button {
     background-color: rgba(128, 17, 187, 0.223);
     color: white;
@@ -66,11 +63,16 @@ h1 {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+
+
+
 .adicionales-home {
     display: flex;
     gap: 10px;
     margin-bottom: 40px;
 }
+
+*/
 
 .adicionales-home button {
     background-color: rgba(0, 0, 0, 0.181);
