@@ -12,11 +12,11 @@ const data = [
 
 function about(){
     const ListData = data.map (data =>
-        <div className="data-me">
-            <img src={data.image} alt="" />
-            <h3>{data.tittle}</h3>
-            <p>{data.description}</p>
-            <p>{data.number}</p>
+        <div className="flex flex-col items-center justify-center w-full bg-[#3c2b4c47] p-3 rounded-[10px] transition-all duration-700 cursor-pointer hover:scale-105 hover:bg-[#83838347] group">
+            <img src={data.image} className='w-15 h-15 p-1 bg-[#83838380] rounded-full '  alt="" />
+            <h3 className='text-[1.5rem]'>{data.tittle}</h3>
+            <p className='text-[1rem]]'>{data.description}</p>
+            <p className='text-xl'>{data.number}</p>
         </div>
     );
 
@@ -55,8 +55,8 @@ function about(){
                         </div>
                     </div>
                 </div>
-                <div className="data-about ">
-                    <div className="data-main">
+                <div className="w-full my-9 mx-0">
+                    <div className="data-main flex gap-5 text-center px-12 py-0">
                         {ListData}
                     </div>
                 </div>
