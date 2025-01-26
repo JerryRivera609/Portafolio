@@ -29,9 +29,15 @@ function home() {
                             <button>Contact <img src={correo} alt="" width="15px" height="17px" /></button>
                         </div>
                         <div className="redes-home flex gap-[30px] mt-[50px]">
-                            <a href='https://github.com/JerryRivera609' target='_blank'><img className='w-[35px] h-[35px]' src={github} alt="GitHub" /></a>
-                            <a href='https://www.linkedin.com/in/jerryrivera609/' target='_blank'><img className='w-[35px] h-[35px]' src={linkedin} alt="Linkedin" /></a>
-                            <a href='https://www.instagram.com/jerry_609rivera/' target='_blank'><img className='w-[35px] h-[35px]' src={instagram} alt="Instagram"/></a>
+                            <a href='https://github.com/JerryRivera609' target='_blank'>
+                                <img className='w-[35px] h-[35px]' src={github} alt="GitHub" />
+                            </a>
+                            <a href='https://www.linkedin.com/in/jerryrivera609/' target='_blank'>
+                                <img className='w-[35px] h-[35px]' src={linkedin} alt="Linkedin" />
+                            </a>
+                            <a href='https://www.instagram.com/jerry_609rivera/' target='_blank'>
+                                <img className='w-[35px] h-[35px]' src={instagram} alt="Instagram"/>
+                            </a>
                         </div>
                     </div>
                     <div className="home-animation">

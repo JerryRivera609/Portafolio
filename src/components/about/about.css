@@ -1,3 +1,4 @@
+/*
 .main-about {
     color: white;
     margin: 100px 0;
@@ -5,6 +6,7 @@
     position: relative;
     z-index: 1000;
 }
+
 
 .tittle-about {
     display: flex;
@@ -15,22 +17,20 @@
     margin-bottom: 100px;
 }
 
+*/
+
 .tittle-about h2 {
-    font-size: 3rem;
     background: linear-gradient(43deg, #870afc 0%, #bb83ff 46%, #6151f4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    line-height: 4rem;
 }
-
+/*
 .tittle-about p{
     display: flex;
+    align-items: center;
     gap: 5px;
 }
 
-.tittle-about p img{
-    width: 15px;
-}
 
 .info-photo-about {
     display: flex;
@@ -46,13 +46,14 @@
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
-
+*/
 .info-about h2 span {
     background: linear-gradient(43deg, #870afc 0%, #bb83ff 46%, #6151f4 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+/*
 .info-about p {
     margin-bottom: 20px;
 }
@@ -104,12 +105,9 @@
     overflow: hidden;
 }
 
+
 .img-profile {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
     box-shadow: 0px 0px 30px 0px #ffffffa4;
-    
     border-radius: 50%;
 }
 
@@ -121,6 +119,8 @@
     border-radius: 50%;
     transition: transform 0.5s ease;
 }
+
+*/
 
 .img-profile a:hover img {
     transform: scale(1.05);
@@ -146,6 +146,8 @@
     top: 100%;
     left: 100%;
 }
+
+
 
 .data-about{
     width: 100%;
