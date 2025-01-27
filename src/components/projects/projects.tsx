@@ -101,8 +101,8 @@ function Projects() {
 
     return (
         <section id="projects">
-            <div className="projects-main">
-                <div className="projects-header">
+            <div className="flex flex-col text-white w-full relative z-[1000] justify-center items-center projects-main">
+                <div className="flex flex-col justify-center text-center w-150 projects-header">
                     <h2>Personal Portfolio</h2>
                     <p>
                         Explore my journey through projects, certifications, and technical experience. 
