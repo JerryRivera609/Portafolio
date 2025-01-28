@@ -20,11 +20,11 @@ function about(){
         </div>
     );
 
-    const cv = '../../../public/cv.png'
-    const llave = '../../../public/llave.png'
-    const photo = '../../../public/profile2.jpeg'
-    const stars = '../../../public/star-white.png'
-    const curriculum = '../../../public/cv/Jerry-Marino-Dominguez-Rivera-CV-Carta.pdf'
+    const cv = '/cv.png'
+    const llave = '/llave.png'
+    const photo = '/profile2.jpeg'
+    const stars = '/star-white.png'
+    const curriculum = '/cv/Jerry-Marino-Dominguez-Rivera-CV-Carta.pdf'
     const curriculumName = 'Jerry-Marino-Dominguez-Rivera-CV'
 
     return(

@@ -2,11 +2,11 @@ import './home.css'
 
 function home() {
     const Coding = '/Computer.svg'
-    const correo = '../../../public/correo.png'
-    const proyecto = '../../../public/portfolio.png'
-    const github = '../../../public/github.png'
-    const linkedin = '../../../public/linkedin.png'
-    const instagram = '../../../public/instagram.png'
+    const correo = '/correo.png'
+    const proyecto = '/portfolio.png'
+    const github = '/github.png'
+    const linkedin = '/linkedin.png'
+    const instagram = '/instagram.png'
     return(
         <>
             <section id='home'>

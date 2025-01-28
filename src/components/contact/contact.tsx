@@ -2,12 +2,12 @@ import './contact.css';
 
 
 const redesSociales = [
-    {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png', fondo:"hover:bg-[#0a66c22a] hover:border-[#0a66c2]"},
-    {tittle: 'WhatsApp', description:'+51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png', fondo:"hover:bg-[#25d3663b] hover:border-[#25d366]"},
-    {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'../../../public/instagram-color.png', fondo:"hover:bg-[linear-gradient(10deg,#f585293b_20%,#feda773b_30%,#dd2a7b3b_60%,#8134af3b_80%,#515bd43b_100%)] hover:border-[#515bd4]"},
-    {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'../../../public/tiktok.png', fondo:"hover:bg-[#0000003b] hover:border-[#0000003b]"},
-    {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'../../../public/github.png', fondo:"hover:bg-[#0000003b] hover:border-[#000000]"},
-    {tittle: 'YouTube', description:'@riveracode', url:'https://www.youtube.com/channel/UCydAbiXAy6-WvKl5LAry3vw', imgurl:'../../../public/youtube.png', fondo:"hover:bg-[#ff00002a] hover:border-[#ff0000]"},
+    {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'/linkedin-color.png', fondo:"hover:bg-[#0a66c22a] hover:border-[#0a66c2]"},
+    {tittle: 'WhatsApp', description:'+51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'/whatsapp.png', fondo:"hover:bg-[#25d3663b] hover:border-[#25d366]"},
+    {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'/instagram-color.png', fondo:"hover:bg-[linear-gradient(10deg,#f585293b_20%,#feda773b_30%,#dd2a7b3b_60%,#8134af3b_80%,#515bd43b_100%)] hover:border-[#515bd4]"},
+    {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'/tiktok.png', fondo:"hover:bg-[#0000003b] hover:border-[#0000003b]"},
+    {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'/github.png', fondo:"hover:bg-[#0000003b] hover:border-[#000000]"},
+    {tittle: 'YouTube', description:'@riveracode', url:'https://www.youtube.com/channel/UCydAbiXAy6-WvKl5LAry3vw', imgurl:'/youtube.png', fondo:"hover:bg-[#ff00002a] hover:border-[#ff0000]"},
 ];
 
 function contact(){

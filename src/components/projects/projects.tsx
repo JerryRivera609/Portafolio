@@ -2,57 +2,57 @@ import { useState } from 'react';
 import './projects.css';
 
 const headerContent = [
-    { image: '../../../../public/llave-blanco.png', tittle: 'Projects', url: '#', id: 'projectSection' },
-    { image: '../../../../public/insignia.png', tittle: 'Certificates', url: '#', id: 'certificateSection' },
-    { image: '../../../../public/skills.png', tittle: 'Tech Stack', url: '#', id: 'techStackSection' }
+    { image: '/llave-blanco.png', tittle: 'Projects', url: '#', id: 'projectSection' },
+    { image: '/insignia.png', tittle: 'Certificates', url: '#', id: 'certificateSection' },
+    { image: '/skills.png', tittle: 'Tech Stack', url: '#', id: 'techStackSection' }
 ];
 
 const targetData = [
     {
         tittle: 'Digimedia',
         description: 'Desarrollo de sitio web en mis pracitcas, realizando una migración de PHP nativo a usar React, NodeJS, y MySQL.',
-        projectUrl: '../../../public/project1.png',
+        projectUrl: '/project1.png',
         button: 'Details',
-        buttonImg: '../../../public/flecha.png',
+        buttonImg: '/flecha.png',
     },
     {
         tittle: 'Llama Tours',
         description: 'Desarrollo de sitio web en personal, pagina de viajes en el Perú, usando HTML, CSS y JavaScript.',
-        projectUrl: '../../../public/project2.png',
+        projectUrl: '/project2.png',
         button: 'Details',
-        buttonImg: '../../../public/flecha.png',
+        buttonImg: '/flecha.png',
     },
     {
         tittle: 'Curriculum Vitae',
         description: 'Primer proyecto basico de replica de mi CV personal en una pagina web, se usó HTML y CSS.',
-        projectUrl: '../../../public/project3.png',
+        projectUrl: '/project3.png',
         button: 'Details',
-        buttonImg: '../../../public/flecha.png',
+        buttonImg: '/flecha.png',
     },
 ];
 
 const skillTech = [
-    {name: 'HTML', img:'../../../public/skills/HTML.svg'},
-    {name: 'CSS', img:'../../../public/skills/CSS.svg'},
-    {name: 'VS Code', img:'../../../public/skills/VSCode.svg'},
-    {name: 'Git', img:'../../../public/skills/Git.svg'},
-    {name: 'Github', img:'../../../public/skills/Github.svg'},
-    {name: 'React', img:'../../../public/skills/React.svg'},
-    {name: 'Vite', img:'../../../public/skills/Vite.svg'},
-    {name: 'PHP', img:'../../../public/skills/PHP.svg'},
-    {name: 'NodeJS', img:'../../../public/skills/nodeJS.svg'},
-    {name: 'TypeScript', img:'../../../public/skills/TypeScript.svg'},
-    {name: 'JavaScript', img:'../../../public/skills/JavaScript.svg'},
-    {name: 'TailWind CSS', img:'../../../public/skills/Tailwind.svg'},
-    {name: 'SASS', img:'../../../public/skills/Sass.svg'},
-    {name: 'MySQL', img:'../../../public/skills/MySQL.svg'},
-    {name: 'SQL Server', img:'../../../public/skills/sql-server.png'},
-    {name: 'Networking', img:'../../../public/skills/network.png'},
+    {name: 'HTML', img:'/skills/HTML.svg'},
+    {name: 'CSS', img:'/skills/CSS.svg'},
+    {name: 'VS Code', img:'/skills/VSCode.svg'},
+    {name: 'Git', img:'/skills/Git.svg'},
+    {name: 'Github', img:'/skills/Github.svg'},
+    {name: 'React', img:'/skills/React.svg'},
+    {name: 'Vite', img:'/skills/Vite.svg'},
+    {name: 'PHP', img:'/skills/PHP.svg'},
+    {name: 'NodeJS', img:'/skills/nodeJS.svg'},
+    {name: 'TypeScript', img:'/skills/TypeScript.svg'},
+    {name: 'JavaScript', img:'/skills/JavaScript.svg'},
+    {name: 'TailWind CSS', img:'/skills/Tailwind.svg'},
+    {name: 'SASS', img:'/skills/Sass.svg'},
+    {name: 'MySQL', img:'/skills/MySQL.svg'},
+    {name: 'SQL Server', img:'/skills/sql-server.png'},
+    {name: 'Networking', img:'/skills/network.png'},
 ];
 
 const certificatesTech = [
-    {img: '../../../public/document/certificate-github.png'},
-    {img: '../../../public/document/network.jpg'},
+    {img: '/document/certificate-github.png'},
+    {img: '/document/network.jpg'},
 ];
 
 function Projects() {
