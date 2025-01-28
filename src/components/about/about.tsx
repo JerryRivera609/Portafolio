@@ -35,7 +35,7 @@ function about(){
                     <p className='flex items-center max-sm:text-center gap-1'><img src={stars} className='w-5 h-4' alt="" /> Transforming ideas into digital experiences <img src={stars} className='w-5 h-4' alt="" /></p>
                 </div>
                 <div className="flex max-lg:flex-col-reverse justify-around items-center">
-                    <div className="max-w-120 info-about">
+                    <div className="w-140 info-about">
                         <h2 className='text-[2.5rem] max-lg:text-center max-lg:mt-10 mb-2'> <span>Hello, I'm </span> <br />Jerry Marino Dominguez Rivera</h2>
                         <p className='mb-5 max-lg:text-center'>Software Engineering student with a strong interest in Front-End development. I am passionate about crafting engaging digital experiences and consistently strive to deliver the best solutions for every project. My goal is to combine creativity and technical expertise to meet user needs and exceed expectations in the web development field.</p>
                         <div className="flex max-lg:justify-center max-sm:flex-col gap-5">
