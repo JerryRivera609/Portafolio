@@ -9,16 +9,13 @@ import Contact from './components/contact/contact'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <body>
+    <div>
+      <Fondo />
       <Header />
       <Home />
       <About />
       <Projects />
-      <Fondo />
       <Contact />
-      <script>
-        AOS.init();
-      </script>
-    </body>
+    </div>
   </StrictMode>,
 )

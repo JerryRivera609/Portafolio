@@ -10,25 +10,25 @@ function home() {
     return(
         <>
             <section id='home'>
-                <div className="flex relative justify-around text-white h-[80vh] z-[1000]">
+                <div className="flex max-lg:flex-col max-lg:justify-center max-lg:text-center max-lg:w-full max-lg:p-5 relative justify-around text-white  z-[1000]">
                     <div className="info-home">
-                        <div className="text-home">
-                            <h1 className='text-[5rem] text-start leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
-                            <h2 className='font-thin mb-[30px] text-[1.4rem]'>Software Engineering Student</h2>
-                            <p className='text-[1rem] mb-[30px]'>A functional, intuitive, and interactive website, carefully designed <br />to provide an exceptional user experience and propose innovative <br /> and effective technological solutions.</p>
+                        <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center text-home">
+                            <h1 className='text-[5rem] text-start max-lg:text-center leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
+                            <h2 className='font-thin mb-[30px] text-[1.4rem] max-lg:text-[1.6rem]'>Software Engineering Student</h2>
+                            <p className=' flextext-[1rem] mb-[30px] w-140 max-lg:w-160 max-sm:w-100 max-lg:text-[1.2rem]'>A functional, intuitive, and interactive website, carefully designed to provide an exceptional user experience and propose innovative and effective technological solutions.</p>
                         </div>
-                        <div className="lenguajes-home flex gap-[10px] mb-[30px]">
-                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>React</button>
-                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>JavaScript</button>
-                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>PHP</button>
-                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Taildwind</button>
-                            <button className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Node.js</button>
+                        <div className="flex flex-wrap max-lg:justify-center gap-[10px] mb-[30px]">
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 max-lg:scale-105 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>React</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>JavaScript</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>PHP</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Taildwind</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Node.js</a>
                         </div>
-                        <div className="adicionales-home flex gap-[10px] mb-[40px]">
+                        <div className="adicionales-home flex max-lg:justify-center gap-[10px] mb-[40px]">
                             <a href='#projects'>Projects <img src={proyecto} alt="" width="15px" height="15px" /></a>
                             <a href='#contact-me'>Contact <img src={correo} alt="" width="15px" height="17px" /></a>
                         </div>
-                        <div className="redes-home flex gap-[30px] mt-[50px]">
+                        <div className="redes-home flex max-lg:justify-center gap-[30px] mt-[50px]">
                             <a href='https://github.com/JerryRivera609' target='_blank'>
                                 <img className='w-[35px] h-[35px]' src={github} alt="GitHub" />
                             </a>
@@ -40,7 +40,7 @@ function home() {
                             </a>
                         </div>
                     </div>
-                    <div className="home-animation">
+                    <div className="max-lg:hidden home-animation">
                         <img src={Coding} width="500px" height="500px"/>
                     </div>
             </div>
