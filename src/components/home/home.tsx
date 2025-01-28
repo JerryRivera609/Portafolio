@@ -1,7 +1,7 @@
 import './home.css'
 
 function home() {
-    const Coding = '../../../public/Computer.svg'
+    const Coding = '/Computer.svg'
     const correo = '../../../public/correo.png'
     const proyecto = '../../../public/portfolio.png'
     const github = '../../../public/github.png'
