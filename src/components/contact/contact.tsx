@@ -25,12 +25,12 @@ function contact(){
 
     return(
         <section id='contact-me'>
-            <div className="items-center justify-center text-white text-center relative z-[1000] px-30 my-5 contact-main ">
+            <div className="items-center justify-center text-white text-center relative z-[1000] px-30 max-sm:px-5 my-5 contact-main ">
                 <div className="mb-12 contact-header">
                     <h2 className='text-[3rem]'>Contact Me</h2>
-                    <p className='text-[1.3rem]'>Got a question? Send me a message, and I'll get back to you soon</p>
+                    <p className='text-[1.3rem] max-sm:text-[1rem]'>Got a question? Send me a message, and I'll get back to you soon</p>
                 </div>
-                <div className="flex justify-center p-5 gap-5 bg-[#7873bb41] rounded-[15px]  contact-email-redes">
+                <div className="flex max-sm:flex-col justify-center p-5 gap-5 bg-[#7873bb41] rounded-[15px]  contact-email-redes">
                     <div className="w-full bg-[#c7c7c70f] rounded-[10px] p-2 contact-email">
                         <h3 className='text-[2rem]'>Get in Touch</h3>
                         <p className='text-[1rem]'>Have something to discuss? Send me a message and let's talk.</p>

@@ -137,7 +137,7 @@ function Projects() {
                         </div>
                         <div
                             id="techStack"
-                            className="my-7 mx-37 gap-[30px] justify-center grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] projects-techStack"
+                            className="my-7 mx-37 max-sm:mx-3 gap-[30px] justify-center grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] projects-techStack"
                             style={{ display: selected === 'Tech Stack' ? 'grid' : 'none' }}
                         >
                             {skills}
