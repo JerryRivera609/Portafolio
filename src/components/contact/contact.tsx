@@ -2,12 +2,12 @@ import './contact.css';
 
 
 const redesSociales = [
-    {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png', fondo:"hover:bg-[#0a66c22a]"},
-    {tittle: 'WhatsApp', description:'+51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png', fondo:"hover:bg-[#25d3663b]"},
-    {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'../../../public/instagram-color.png', fondo:"hover:bg-[linear-gradient(45deg,#f585293b_20%,#feda773b_30%,#dd2a7b3b_60%,#8134af3b_80%,#515bd43b_100%)]"},
-    {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'../../../public/tiktok.png', fondo:"hover:bg-[#0000003b]"},
-    {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'../../../public/github.png', fondo:"hover:bg-[#0000003b]"},
-    {tittle: 'YouTube', description:'@riveracode', url:'https://www.youtube.com/channel/UCydAbiXAy6-WvKl5LAry3vw', imgurl:'../../../public/youtube.png', fondo:"hover:bg-[#ff00002a]"},
+    {tittle: 'Linkedin', description:'in/jerryrivera609', url:'https://www.linkedin.com/in/jerryrivera609/', imgurl:'../../../public/linkedin-color.png', fondo:"hover:bg-[#0a66c22a] hover:border-[#0a66c2]"},
+    {tittle: 'WhatsApp', description:'+51 980837493', url:'https://wa.me/980837493/?text=Hola, vengo de parte de tu pagina web 😁', imgurl:'../../../public/whatsapp.png', fondo:"hover:bg-[#25d3663b] hover:border-[#25d366]"},
+    {tittle: 'Instagram', description:'@jerry_609rivera', url:'https://www.instagram.com/jerry_609rivera/', imgurl:'../../../public/instagram-color.png', fondo:"hover:bg-[linear-gradient(10deg,#f585293b_20%,#feda773b_30%,#dd2a7b3b_60%,#8134af3b_80%,#515bd43b_100%)] hover:border-[#515bd4]"},
+    {tittle: 'Tiktok', description:'@jerry609rivera', url:'https://www.tiktok.com/@jerry609rivera', imgurl:'../../../public/tiktok.png', fondo:"hover:bg-[#0000003b] hover:border-[#0000003b]"},
+    {tittle: 'Github', description:'@JerryRivera609', url:'https://github.com/JerryRivera609', imgurl:'../../../public/github.png', fondo:"hover:bg-[#0000003b] hover:border-[#000000]"},
+    {tittle: 'YouTube', description:'@riveracode', url:'https://www.youtube.com/channel/UCydAbiXAy6-WvKl5LAry3vw', imgurl:'../../../public/youtube.png', fondo:"hover:bg-[#ff00002a] hover:border-[#ff0000]"},
 ];
 
 function contact(){
@@ -24,8 +24,8 @@ function contact(){
 
 
     return(
-        <section id='cotact-me'>
-            <div className="items-center justify-center text-white text-center relative z-[1000] px-50 my-5 contact-main ">
+        <section id='contact-me'>
+            <div className="items-center justify-center text-white text-center relative z-[1000] px-30 my-5 contact-main ">
                 <div className="mb-12 contact-header">
                     <h2 className='text-[3rem]'>Contact Me</h2>
                     <p className='text-[1.3rem]'>Got a question? Send me a message, and I'll get back to you soon</p>
@@ -36,14 +36,14 @@ function contact(){
                         <p className='text-[1rem]'>Have something to discuss? Send me a message and let's talk.</p>
                         <form action="https://formspree.io/f/mbldjqdr" className='mt-5 py-2 px-5' method="POST">
                             <div>
-                                <input className='w-[90%] h-10 mb-5 p-2 rounded-[10px] border border-[rgba(255, 255, 255, 0.33)] text-white text-[1rem] bg-[#ffffff08] input-name' type="text" name="name" id="" placeholder="Your Name" required />
+                                <input className='w-[90%] h-10 mb-5 p-2 rounded-[10px] border-1 border-[#ffffff2e] text-white text-[1rem] bg-[#ffffff08] input-name' type="text" name="name" id="" placeholder="Your Name" required />
                             </div>
                             <div>
-                                <input className='w-[90%] h-10 mb-5 p-2 rounded-[10px] border border-[rgba(255, 255, 255, 0.33)] text-white text-[1rem] bg-[#ffffff08] input-email' type="email" name="email" id="" placeholder="Your Email" required />
+                                <input className='w-[90%] h-10 mb-5 p-2 rounded-[10px] border border-[#ffffff2e] text-white text-[1rem] bg-[#ffffff08] input-email' type="email" name="email" id="" placeholder="Your Email" required />
                             </div>
                             <div>
                                 
-                                <textarea name="message" id="textarea" className='w-[90%] h-30 mb-5 p-2 rounded-[10px] border border-[rgba(255, 255, 255, 0.33)] text-white text-[1rem] bg-[#ffffff08] resize-none' placeholder='Your Message' required ></textarea>
+                                <textarea name="message" id="textarea" className='w-[90%] h-30 mb-5 p-2 rounded-[10px] border border-[#ffffff2e] text-white text-[1rem] bg-[#ffffff08] resize-none' placeholder='Your Message' required ></textarea>
                             </div>
                             <button type="submit" className='w-[90%] py-5 px-3 rounded-[10px] bg-[linear-gradient(43deg,_#870afc_20%,_#bb83ff_100%)] transition-all duration-1000 hover:shadow-[0px_9px_12px_-5px_#870afc]'>Send Message</button>
                         </form>

@@ -40,6 +40,7 @@ const skillTech = [
     {name: 'React', img:'../../../public/skills/React.svg'},
     {name: 'Vite', img:'../../../public/skills/Vite.svg'},
     {name: 'PHP', img:'../../../public/skills/PHP.svg'},
+    {name: 'NodeJS', img:'../../../public/skills/nodeJS.svg'},
     {name: 'TypeScript', img:'../../../public/skills/TypeScript.svg'},
     {name: 'JavaScript', img:'../../../public/skills/JavaScript.svg'},
     {name: 'TailWind CSS', img:'../../../public/skills/Tailwind.svg'},

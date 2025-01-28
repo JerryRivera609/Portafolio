@@ -37,7 +37,7 @@ function about(){
                 <div className="flex justify-around items-center">
                     <div className="max-w-120 info-about">
                         <h2 className='text-[2.5rem] mb-2'> <span>Hello, I'm </span> <br />Jerry Marino Dominguez Rivera</h2>
-                        <p className='mb-5'>Esutidnate de la Carrera de Ingeniería de Software interesado en el desarrollo Front-End. Me centro en crear experiencias digitales atractivas y siempre me esfuerzo por brindar las mejores soluciones en cada proyecto.</p>
+                        <p className='mb-5'>Software Engineering student with a strong interest in Front-End development. I am passionate about crafting engaging digital experiences and consistently strive to deliver the best solutions for every project. My goal is to combine creativity and technical expertise to meet user needs and exceed expectations in the web development field.</p>
                         <div className="flex gap-5">
                             <a href={curriculum} className="no-underline rounded-[10px] flex items-center gap-1.5 p-2 text-white bg-[#870afc] border-0 transition-all duration-1000 hover:bg-[#bb83ff]" download={curriculumName}>
                                 <img src={cv} className='w-5 h-5' alt="" />
