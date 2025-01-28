@@ -75,7 +75,7 @@ function Projects() {
     ));
 
     const targets = targetData.map(target => (
-        <div className="w-100 h-85 bg-[#7873bb63] border-2 border-[#898989E9] rounded-[10px] p-2 mb-5 flex flex-col transition-all duration-500 hover:border-[#8471ffc3] project-target group"
+        <div className="w-100 max-sm:w-70 h-85 max-sm:h-75 bg-[#7873bb63] border-2 border-[#898989E9] rounded-[10px] p-2 mb-5 flex flex-col transition-all duration-500 hover:border-[#8471ffc3] project-target group"
         key={target.tittle}>
             <img src={target.projectUrl}
                 width="380px"
@@ -100,7 +100,7 @@ function Projects() {
     ));
 
     const certificate = certificatesTech.map((certificate, index) => (
-        <div className="bg-[#7873bb41] p-5 rounded-[10px] my-7 flex relative top-0 transition-all duration-500 hover:top-[-10px] certificate" key={index}>
+        <div className="bg-[#7873bb41] p-5 rounded-[10px] my-7 flex relative max-sm:w-80 max-sm:h-60 top-0 transition-all duration-500 hover:top-[-10px] certificate" key={index}>
             <img src={certificate.img} className='w-100 h-auto' alt="Certificado" />
         </div>
     ));
@@ -108,9 +108,9 @@ function Projects() {
     return (
         <section id="projects">
             <div className="flex flex-col text-white w-full relative z-[1000] justify-center items-center projects-main">
-                <div className="flex flex-col justify-center text-center w-150 projects-header">
+                <div className="flex flex-col justify-center text-center projects-header">
                     <h2 className='text-[3rem]'>Personal Portfolio</h2>
-                    <p>
+                    <p className='w-150 max-sm:w-full'>
                         Explore my journey through projects, certifications, and technical experience. 
                         Each section represents a milestone in my continuous learning path.
                     </p>

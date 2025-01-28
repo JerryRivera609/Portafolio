@@ -13,7 +13,7 @@ function home() {
                 <div className="flex max-lg:flex-col max-lg:justify-center max-lg:text-center max-lg:w-full max-lg:p-5 relative justify-around text-white  z-[1000]">
                     <div className="info-home">
                         <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center text-home">
-                            <h1 className='text-[5rem] text-start max-lg:text-center leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
+                            <h1 className='text-[5rem] text-start max-lg:text-center max-sm:text-[4rem] leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
                             <h2 className='font-thin mb-[30px] text-[1.4rem] max-lg:text-[1.6rem]'>Software Engineering Student</h2>
                             <p className=' flextext-[1rem] mb-[30px] w-140 max-lg:w-160 max-sm:w-100 max-lg:text-[1.2rem]'>A functional, intuitive, and interactive website, carefully designed to provide an exceptional user experience and propose innovative and effective technological solutions.</p>
                         </div>
