@@ -12,21 +12,21 @@ const targetData = [
         tittle: 'Digimedia',
         description: 'Desarrollo de sitio web en mis pracitcas, realizando una migración de PHP nativo a usar React, NodeJS, y MySQL.',
         projectUrl: '/project1.png',
-        button: 'Details',
+        button: 'Live Demo',
         buttonImg: '/flecha.png',
     },
     {
         tittle: 'Llama Tours',
         description: 'Desarrollo de sitio web en personal, pagina de viajes en el Perú, usando HTML, CSS y JavaScript.',
         projectUrl: '/project2.png',
-        button: 'Details',
+        button: 'Live Demo',
         buttonImg: '/flecha.png',
     },
     {
         tittle: 'Curriculum Vitae',
         description: 'Primer proyecto basico de replica de mi CV personal en una pagina web, se usó HTML y CSS.',
         projectUrl: '/project3.png',
-        button: 'Details',
+        button: 'Live Demo',
         buttonImg: '/flecha.png',
     },
 ];
@@ -84,7 +84,7 @@ function Projects() {
             <h3 className='text-lg p-1' >{target.tittle}</h3>
             <p className='text-[0.8rem]'>{target.description}</p>
             <div className="w-full flex justify-end project-target-button">
-                <a href="" className='flex gap-2 bg-[#0000001e] p-2 w-auto h-auto items-center justify-center rounded-[10px] no-underline text-white text-[0.9rem] mt-2 border border-[#ffffff2b] transition-all duration-1000 hover:bg-[#e7e7e749]'>
+                <a href="projects" className='flex gap-2 bg-[#0000001e] p-2 w-auto h-auto items-center justify-center rounded-[10px] no-underline text-white text-[0.9rem] mt-2 border border-[#ffffff2b] transition-all duration-1000 hover:bg-[#e7e7e749]'>
                     {target.button}
                     <img src={target.buttonImg} className='w-4 h-auto' alt="" />
                 </a>
