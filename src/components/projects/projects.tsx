@@ -14,6 +14,7 @@ const targetData = [
         projectUrl: '/project1.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
+        url: 'https://digimediamkt.com/',
     },
     {
         tittle: 'Llama Tours',
@@ -21,6 +22,7 @@ const targetData = [
         projectUrl: '/project2.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
+        url: 'https://jerryrivera609.github.io/LlamaTours/html/index.html'
     },
     {
         tittle: 'Curriculum Vitae',
@@ -71,7 +73,7 @@ function Projects() {
                 e.preventDefault();
                 setSelected(headers.tittle);
             }}
-            className={`${selected === headers.tittle ? 'bg-[linear-gradient(43deg,_#870afc71_0%,_#bb83ff71_46%,_#6151f471_100%)] w-full flex flex-col justify-center items-center rounded-[10px] selected' : 'flex flex-col items-center w-full p-2 rounded-xl transition-all duration-1000 hover:bg-[#ffffff1c]'}`}
+            className={`${selected === headers.tittle ? 'bg-[linear-gradient(43deg,_#870afc71_0%,_#bb83ff71_46%,_#6151f471_100%)]  w-full flex flex-col justify-center items-center rounded-[10px] selected' : 'flex flex-col items-center w-full p-2 rounded-xl transition-all duration-1000 hover:bg-[#ffffff1c]'}`}
         >
             <img src={headers.image} className='w-7 h-7' alt="" />
             <p>{headers.tittle}</p>
