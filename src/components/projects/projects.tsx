@@ -53,6 +53,8 @@ const skillTech = [
 
 const certificatesTech = [
     {img: '/document/certificate-github.png'},
+    {img: '/document/LogicaJavaScript.png'},
+    {img: '/document/DesarrolloPersonal.png'},
     {img: '/document/network.jpg'},
     {img: '/document/ciberseguridad.png'},
 ];
