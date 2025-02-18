@@ -24,13 +24,7 @@ const targetData = [
         buttonImg: '/flecha.png',
         url: 'https://jerryrivera609.github.io/LlamaTours/html/index.html'
     },
-    {
-        tittle: 'Curriculum Vitae',
-        description: 'Primer proyecto basico de replica de mi CV personal en una pagina web, se usó HTML y CSS.',
-        projectUrl: '/project3.png',
-        button: 'Live Demo',
-        buttonImg: '/flecha.png',
-    },
+    
 ];
 
 const skillTech = [
