@@ -31,7 +31,7 @@ const targetData = [
         projectUrl: '/project6.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
-        url: 'https://travelaja-h6gsprw6d-jerryrivera.vercel.app/'
+        url: 'https://avicii-project.vercel.app/'
     },
     {
         tittle: 'Travelaja',
