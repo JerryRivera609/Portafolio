@@ -26,6 +26,14 @@ const targetData = [
         url: 'https://digimediamkt.com/',
     },
     {
+        tittle: 'Avicii Tribute',
+        description: 'Avicii es uno de mis artistas favoritsas, por lo que decidí hacer un tributo a su música y legado, usando React con TypeScript y TailwindCSS.',
+        projectUrl: '/project6.png',
+        button: 'Live Demo',
+        buttonImg: '/flecha.png',
+        url: 'https://travelaja-h6gsprw6d-jerryrivera.vercel.app/'
+    },
+    {
         tittle: 'Travelaja',
         description: 'Desarrollo un pequeño projecto usando Angular y TailwindCSS.',
         projectUrl: '/project5.png',
@@ -100,7 +108,7 @@ function Projects() {
     ));
 
     const targets = targetData.map(target => (
-        <div className="w-100 max-sm:w-70 h-85 max-sm:h-75 bg-[#7873bb63] border-2 border-[#898989E9] rounded-[10px] p-2 mb-5 flex flex-col transition-all duration-500 hover:border-[#8471ffc3] project-target group"
+        <div className="w-100 max-sm:w-70 h-85 max-sm:h-75 bg-[#867dff31] border-2 border-[#898989E9] rounded-[10px] p-2 mb-5 flex flex-col transition-all duration-500 cursor-pointer hover:border-[#8471ffc3] hover:bg-[#867dff6e] project-target group"
         key={target.tittle}>
             <img src={target.projectUrl}
                 width="380px"
