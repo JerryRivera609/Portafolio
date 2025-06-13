@@ -8,6 +8,15 @@ const headerContent = [
 ];
 
 const targetData = [
+    
+    {
+        tittle: 'Llama Tours',
+        description: 'Desarrollo de sitio web en personal, pagina de viajes en el Perú, usando HTML, CSS y JavaScript.',
+        projectUrl: '/project2.png',
+        button: 'Live Demo',
+        buttonImg: '/flecha.png',
+        url: 'https://jerryrivera609.github.io/LlamaTours/html/index.html'
+    },
     {
         tittle: 'Digimedia',
         description: 'Desarrollo de sitio web en mis pracitcas, realizando una migración de PHP nativo a usar React, NodeJS, y MySQL.',
@@ -17,12 +26,20 @@ const targetData = [
         url: 'https://digimediamkt.com/',
     },
     {
-        tittle: 'Llama Tours',
-        description: 'Desarrollo de sitio web en personal, pagina de viajes en el Perú, usando HTML, CSS y JavaScript.',
-        projectUrl: '/project2.png',
+        tittle: 'Travelaja',
+        description: 'Desarrollo un pequeño projecto usando Angular y TailwindCSS.',
+        projectUrl: '/project5.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
-        url: 'https://jerryrivera609.github.io/LlamaTours/html/index.html'
+        url: 'https://travelaja-h6gsprw6d-jerryrivera.vercel.app/'
+    },
+    {
+        tittle: '(VAN) Calculator',
+        description: 'Desarrollo una pequeña calculadora de Valor Actual Neto con Angular y TailwindCSS.',
+        projectUrl: '/project4.png',
+        button: 'Live Demo',
+        buttonImg: '/flecha.png',
+        url: 'https://valor-actual-neto.vercel.app/'
     },
     {
         tittle: 'Curriculum Vitae',
