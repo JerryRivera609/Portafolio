@@ -42,7 +42,8 @@ const skillTech = [
     {name: 'React', img:'/skills/React.svg'},
     {name: 'Vite', img:'/skills/Vite.svg'},
     {name: 'PHP', img:'/skills/PHP.svg'},
-    {name: 'NodeJS', img:'/skills/nodeJS.svg'},
+    {name: 'Angular', img:'/skills/Angular-Light.svg'},
+    {name: 'SpringBoot', img:'/skills/Spring-Light.svg'},
     {name: 'TypeScript', img:'/skills/TypeScript.svg'},
     {name: 'JavaScript', img:'/skills/JavaScript.svg'},
     {name: 'TailWind CSS', img:'/skills/Tailwind.svg'},
@@ -100,7 +101,7 @@ function Projects() {
     ));
 
     const skills = skillTech.map(skill => (
-        <div className="w-25 flex flex-col justify-around items-center text-center bg-[#7873bb1e] p-2 rounded-[10px] transition-all duration-500 skill-target hover:scale-110 hover:bg-[linear-gradient(124deg,_#8000f88c_0%,_#bb83ffa0_46%,_#6151f49a_100%)] cursor-pointer" key={skill.name}>
+        <div className="w-auto flex flex-col justify-around items-center text-center bg-[#7873bb1e] p-2 rounded-[10px] transition-all duration-500 skill-target hover:scale-110 hover:bg-[linear-gradient(124deg,_#8000f88c_0%,_#bb83ffa0_46%,_#6151f49a_100%)] cursor-pointer" key={skill.name}>
             <img src={skill.img} className='w-20 h-20' alt="" />
             <p>{skill.name}</p>
         </div>
@@ -144,7 +145,7 @@ function Projects() {
                         </div>
                         <div
                             id="techStack"
-                            className="my-7 mx-37 max-sm:mx-3 gap-[30px] justify-center grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] projects-techStack"
+                            className="my-7 mx-37 max-sm:mx-3 gap-[30px] justify-center items-center grid-cols-[repeat(auto-fit,_minmax(100px,_1fr))] projects-techStack"
                             style={{ display: selected === 'Tech Stack' ? 'grid' : 'none' }}
                         >
                             {skills}
