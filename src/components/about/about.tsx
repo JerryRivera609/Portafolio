@@ -24,7 +24,7 @@ function about(){
     const llave = '/llave.png'
     const photo = '/profile2.jpeg'
     const stars = '/star-white.png'
-    const curriculum = '/cv/Jerry-Marino-Dominguez-Rivera-CV.pdf'
+    const curriculum = '/cv/JERRY-MARINO-DOMINGUEZ-RIVERA-CV.pdf'
     const curriculumName = 'Jerry-Marino-Dominguez-Rivera-CV'
 
     return(
