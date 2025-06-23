@@ -55,6 +55,7 @@ const targetData = [
         projectUrl: '/project3.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
+        url: '#projects'
     },
 ];
 
@@ -117,7 +118,7 @@ function Projects() {
             <h3 className='text-lg p-1' >{target.tittle}</h3>
             <p className='text-[0.8rem]'>{target.description}</p>
             <div className="w-full flex justify-end project-target-button">
-                <a href="#projects" target='_blank' aria-label='Live Demo' className='flex gap-2 bg-[#0000001e] p-2 w-auto h-auto items-center justify-center rounded-[10px] no-underline text-white text-[0.9rem] mt-2 border border-[#ffffff2b] transition-all duration-1000 hover:bg-[#e7e7e749]'>
+                <a href={target.url} target='_blank' aria-label='Live Demo' className='flex gap-2 bg-[#0000001e] p-2 w-auto h-auto items-center justify-center rounded-[10px] no-underline text-white text-[0.9rem] mt-2 border border-[#ffffff2b] transition-all duration-1000 hover:bg-[#e7e7e749]'>
                     {target.button}
                     <img src={target.buttonImg} className='w-4 h-auto' alt="Flecha-Izquierda" />
                 </a>
