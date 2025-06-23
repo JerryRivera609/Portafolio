@@ -13,9 +13,9 @@ function home() {
                 <div className="flex max-lg:flex-col max-lg:justify-center max-lg:text-center max-lg:w-full max-lg:p-5 relative justify-around text-white  z-[1000]">
                     <div className="info-home">
                         <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center text-home">
-                            <h1 className='text-[5rem] text-start max-lg:text-center max-sm:text-[4rem] leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
-                            <h2 className='font-thin mb-[30px] text-[1.4rem] max-lg:text-[1.6rem]'>Software Engineering Student</h2>
-                            <p className=' flextext-[1rem] mb-[30px] w-140 max-lg:w-160 max-sm:w-100 max-lg:text-[1.2rem]'>A functional, intuitive, and interactive website, carefully designed to provide an exceptional user experience and propose innovative and effective technological solutions.</p>
+                            <h1 className='text-[5rem] text-start max-lg:text-center max-sm:text-[3rem] leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>
+                            <h2 className='font-thin mb-[30px] text-[1.4rem] max-lg:text-[1.4rem]'>Software Engineering Student</h2>
+                            <p className=' flextext-[1rem] mb-[30px] w-140 max-lg:w-160 max-sm:w-100 max-lg:text-[1rem]'>A functional, intuitive, and interactive website, carefully designed to provide an exceptional user experience and propose innovative and effective technological solutions.</p>
                         </div>
                         <div className="flex flex-wrap max-lg:justify-center gap-[10px] mb-[30px]">
                             <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 max-lg:scale-105 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>React</a>
