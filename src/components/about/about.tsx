@@ -43,7 +43,7 @@ function about(){
                                 <img src={cv} className='w-5 h-5' alt="" />
                                 Download CV
                             </a>
-                            <a href="#projects" className="flex items-center border-1 justify-center rounded-[10px] p-2 gap-1.5 text-[#870afc] transition-all duration-1000 hover:text-[#bb83ff]">
+                            <a href="#projects" className="flex items-center border-1 justify-center rounded-[10px] p-2 gap-1.5 text-[#ffffff] transition-all duration-1000 hover:text-[#dabcff]">
                                 <img src={llave} alt="" />
                                 View Porjects
                             </a>
@@ -51,7 +51,7 @@ function about(){
                     </div>
                     <div className="profile-about">
                         <div className="inline-block relative overflow-hidden shadow-[0px_0px_30px_0px_#ffffffa4] rounded-full  img-profile">
-                            <a href="#about-me" className=''><span><img src={photo} className='block w-90 h-90 max-sm:w-80 max-sm:h-80 transition-all duration-1000' alt="" /></span></a>
+                            <a href="#about-me" className=''><span><img src={photo} className='block w-90 h-90 max-sm:w-80 max-sm:h-80 transition-all duration-1000' alt="Mi-foto   " /></span></a>
                         </div>
                     </div>
                 </div>

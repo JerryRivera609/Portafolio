@@ -41,7 +41,7 @@ function home() {
                         </div>
                     </div>
                     <div className="max-lg:hidden home-animation">
-                        <img src={Coding} width="500px" height="500px"/>
+                        <img src={Coding} width="500px" height="500px" alt='Coding'/>
                     </div>
             </div>
         </section>
