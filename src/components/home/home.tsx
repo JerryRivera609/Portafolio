@@ -10,7 +10,7 @@ function home() {
     return(
         <>
             <section id='home'>
-                <div className="flex max-lg:flex-col max-lg:justify-center max-lg:text-center max-lg:w-full max-lg:p-5 relative justify-around text-white  z-[1000]">
+                <div className="flex max-lg:flex-col max-lg:justify-center max-lg:text-center max-lg:w-full max-lg:p-5 max-sm:p-0 relative justify-around text-white  z-[1000]">
                     <div className="info-home">
                         <div className="max-lg:flex max-lg:flex-col max-lg:justify-center max-lg:items-center text-home">
                             <h1 className='text-[5rem] text-start max-lg:text-center max-sm:text-[3rem] leading-none mb-[30px]' >Frontend <br /><span>Developer</span></h1>

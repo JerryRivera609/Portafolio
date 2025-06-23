@@ -29,7 +29,7 @@ function about(){
 
     return(
         <section id="about-me">
-            <div className="main-about p-5 text-white my-24 w-full relative z-[1000]">
+            <div className="main-about p-5 max-sm:p-0 text-white my-24 w-full relative z-[1000]">
                 <div className="tittle-about flex flex-col justify-center items-center loading-none mb-10">
                     <h2 className='text-[3rem] leading-[4rem]'>About Me</h2>
                     <p className='flex items-center max-sm:text-center gap-1'><img src={stars} className='w-5 h-5' alt="" /> Transforming ideas into digital experiences <img src={stars} className='w-5 h-5' alt="" /></p>
