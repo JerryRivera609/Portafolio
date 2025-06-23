@@ -18,11 +18,11 @@ function home() {
                             <p className=' flextext-[1rem] mb-[30px] w-140 max-lg:w-160 max-sm:w-100 max-lg:text-[1rem]'>A functional, intuitive, and interactive website, carefully designed to provide an exceptional user experience and propose innovative and effective technological solutions.</p>
                         </div>
                         <div className="flex flex-wrap max-lg:justify-center gap-[10px] mb-[30px]">
-                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 max-lg:scale-105 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>React</a>
-                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>JavaScript</a>
-                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>PHP</a>
-                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Taildwind</a>
-                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]'>Node.js</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 max-lg:scale-105 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]' href='#projects' aria-label='Projects'>React</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]' href='#projects' aria-label='Projects'>JavaScript</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]' href='#projects' aria-label='Projects'>PHP</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]' href='#projects' aria-label='Projects'>Taildwind</a>
+                            <a className='bg-[rgba(128,17,187,0.223)] text-white py-1 px-4 rounded-[20px] border-[0.5px] border-[rgba(255,255,255,0.5)] cursor-pointer transition-all duration-500 hover:bg-[rgba(255,255,255,0.3)]' href='#projects' aria-label='Projects'>Node.js</a>
                         </div>
                         <div className="adicionales-home flex max-lg:justify-center gap-[10px] mb-[40px]">
                             <a href='#projects'>Projects <img src={proyecto} alt="" width="15px" height="15px" /></a>
@@ -41,7 +41,7 @@ function home() {
                         </div>
                     </div>
                     <div className="max-lg:hidden home-animation">
-                        <img src={Coding} width="500px" height="500px" alt='Coding'/>
+                        <img src={Coding} width="500px" height="500px" alt='Coding' />
                     </div>
             </div>
         </section>

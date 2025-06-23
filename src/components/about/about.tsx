@@ -51,7 +51,7 @@ function about(){
                     </div>
                     <div className="profile-about">
                         <div className="inline-block relative overflow-hidden shadow-[0px_0px_30px_0px_#ffffffa4] rounded-full  img-profile">
-                            <a href="#about-me" className=''><span><img src={photo} className='block w-90 h-90 max-sm:w-80 max-sm:h-80 transition-all duration-1000' alt="Mi-foto   " /></span></a>
+                            <a href="#about-me" className=''><span><img src={photo} className='block w-90 h-90 max-sm:w-80 max-sm:h-80 transition-all duration-1000' alt="Mi-foto" aria-label='Mi Foto' /></span></a>
                         </div>
                     </div>
                 </div>
