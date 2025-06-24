@@ -75,9 +75,6 @@ const skillTech = [
     {name: 'TailWind CSS', img:'/skills/Tailwind.svg'},
     {name: 'SASS', img:'/skills/Sass.svg'},
     {name: 'MySQL', img:'/skills/MySQL.svg'},
-    {name: 'SQL Server', img:'/skills/sql-server.png'},
-    {name: 'Networking', img:'/skills/network.png'},
-    {name: 'CyberSec', img:'/skills/cybersecurity.png'},
 ];
 
 const certificatesTech = [
