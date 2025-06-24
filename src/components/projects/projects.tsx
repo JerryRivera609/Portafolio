@@ -82,7 +82,9 @@ const skillTech = [
 
 const certificatesTech = [
     {img: '/document/uni-python.jpg'},
+    {img: '/document/poo.jpg'},
     {img: '/document/certificate-github.png'},
+    {img: '/document/javapoo.png'},
     {img: '/document/LogicaJavaScript.png'},
     {img: '/document/DesarrolloPersonal.png'},
     {img: '/document/network.jpg'},
