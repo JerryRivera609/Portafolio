@@ -39,7 +39,7 @@ const targetData = [
         projectUrl: '/project5.png',
         button: 'Live Demo',
         buttonImg: '/flecha.png',
-        url: 'https://travelaja-h6gsprw6d-jerryrivera.vercel.app/'
+        url: 'https://travelaja-one.vercel.app/'
     },
     {
         tittle: '(VAN) Calculator',
