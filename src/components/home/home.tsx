@@ -4,9 +4,7 @@ function home() {
     const Coding = '/Computer.svg'
     const correo = '/correo.png'
     const proyecto = '/portfolio.png'
-    const github = '/github.png'
-    const linkedin = '/linkedin.png'
-    const instagram = '/instagram.png'
+
     return(
         <>
             <section id='home'>
