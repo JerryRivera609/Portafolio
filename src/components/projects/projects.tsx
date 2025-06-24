@@ -136,7 +136,7 @@ function Projects() {
     ));
 
     const certificate = certificatesTech.map((certificate, index) => (
-        <div className="bg-[#7873bb41] p-5 rounded-[10px] my-7 flex relative max-sm:w-80 max-sm:h-60 top-0 transition-all duration-500 hover:top-[-10px] certificate" key={index}>
+        <div className="bg-[#7873bb41] p-5 rounded-[10px] my-7 flex flex-col relative max-sm:w-80 max-sm:h-60 top-0 transition-all duration-500 hover:top-[-10px] certificate" key={index}>
             <img src={certificate.img} className='w-100 h-auto' alt="Certificado" />
         </div>
     ));
@@ -166,7 +166,7 @@ function Projects() {
                         </div>
                         <div
                             id="certificate"
-                            className="w-full grid-cols-[repeat(auto-fit,_minmax(400px,_1fr))] justify-items-center mb-7 projects-certificate"
+                            className="w-full my-10 mx-auto grid-cols-[repeat(auto-fit,_minmax(450px,_1fr))] justify-center place-items-center projects-certificate"
                             style={{ display: selected === 'Certificates' ? 'grid' : 'none' }}
                         >
                             {certificate}
